@@ -1,16 +1,20 @@
-import express, { json } from 'express';
-import router from './routes/userRoute';
-import port from './server';
-import dotenv from 'dotenv';
-import AWS from 'aws-sdk'
+import express, { json } from 'express'
+import router from './routes/userRoute.js'
+import port from './server.js'
+import dotenv from 'dotenv'
+//import AWS from 'aws-sdk'
 
-dotenv.config();
+dotenv.config()
 
-const app = express();
-const cloudmap = new AWS.ServiceDiscovery({region: 'us-east-1'});
+const app = express()
+//const cloudmap = new AWS.ServiceDiscovery({ region: 'us-east-1' })
 
-app.use(json());
+app.use(json())
 app.use('/user', router)
+app.listen(port, () => {
+  console.log(`User Service listening on port ${port}`)
+})
+/*
 app.listen(port, async () => {
     console.log(`User Service listening on port ${port}`);
     try{
@@ -27,6 +31,4 @@ app.listen(port, async () => {
     }catch(err){
         console.log('Error registering service with Cloud Map: ', err);
     }
-});
-
-
+});*/

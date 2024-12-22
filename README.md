@@ -1,4 +1,4 @@
-Ecommerce Platform created using Microservice and Event-driven archture
+Ecommerce Platform created using Microservice and Event-driven architecture
 
 
 ## Features

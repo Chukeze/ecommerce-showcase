@@ -1,0 +1,72 @@
+2024-12-15 12:28:20 [[31merror[39m]: uncaughtException: Cannot read properties of undefined (reading 'split')
+TypeError: Cannot read properties of undefined (reading 'split')
+    at securityLayer (file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/middlewares/security.js:13:41)
+    at file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/index.js:13:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:120:12)
+2024-12-15 12:28:33 [[31merror[39m]: uncaughtException: Cannot read properties of undefined (reading 'split')
+TypeError: Cannot read properties of undefined (reading 'split')
+    at securityLayer (file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/middlewares/security.js:13:41)
+    at file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/index.js:13:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:120:12)
+2024-12-15 12:31:14 [[31merror[39m]: uncaughtException: Cannot read properties of undefined (reading 'split')
+TypeError: Cannot read properties of undefined (reading 'split')
+    at securityLayer (file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/middlewares/security.js:13:41)
+    at file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/index.js:13:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:120:12)
+2024-12-15 12:31:42 [[31merror[39m]: uncaughtException: Cannot read properties of undefined (reading 'split')
+TypeError: Cannot read properties of undefined (reading 'split')
+    at securityLayer (file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/middlewares/security.js:13:41)
+    at file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/index.js:13:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:120:12)
+2024-12-15 12:35:38 [[31merror[39m]: uncaughtException: Cannot read properties of undefined (reading 'split')
+TypeError: Cannot read properties of undefined (reading 'split')
+    at securityLayer (file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/middlewares/security.js:13:41)
+    at file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/index.js:13:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:120:12)
+2024-12-15 12:36:13 [[31merror[39m]: uncaughtException: Cannot read properties of undefined (reading 'split')
+TypeError: Cannot read properties of undefined (reading 'split')
+    at securityLayer (file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/middlewares/security.js:13:41)
+    at file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/index.js:13:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:120:12)
+2024-12-15 12:40:03 [[31merror[39m]: uncaughtException: errorHandler is not defined
+ReferenceError: errorHandler is not defined
+    at file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/index.js:21:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:120:12)
+2024-12-21 20:01:35 [[31merror[39m]: uncaughtException: undefined is not a function
+TypeError: undefined is not a function
+    at Array.map (<anonymous>)
+    at securityLayer (file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/middlewares/security.js:11:52)
+    at file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/index.js:14:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:120:12)
+2024-12-21 20:02:12 [[31merror[39m]: uncaughtException: Cannot read properties of undefined (reading 'use')
+TypeError: Cannot read properties of undefined (reading 'use')
+    at securityLayer (file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/middlewares/security.js:19:7)
+    at file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/index.js:14:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:120:12)

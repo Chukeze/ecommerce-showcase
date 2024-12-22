@@ -1,8 +1,9 @@
 import { hash, compare } from 'bcrypt'
-import { sign } from 'jsonwebtoken'
+import pkg from 'jsonwebtoken'
 import { v4 as uuidv4 } from 'uuid'
-import { Customer} from '../models/userModel'
+import { Customer } from '../models/userModel.js'
 
+const { sign } = pkg;
 
 export async function registerCustomer(req, res) {
   try {
@@ -45,7 +46,11 @@ export async function loginCustomer(req, res) {
 //
 export async function deleteCustomer(req, res) {
   try {
-    const user = await Customer.findById({ where: { id: req.user.id } }).then((user) => { user.destroy() });
+    const user = await Customer.findById({ where: { id: req.user.id } }).then(
+      (user) => {
+        user.destroy()
+      }
+    )
     res.json({ message: 'Customer deleted successfully' })
   } catch (error) {
     res.status(500).json({ message: error.message })
