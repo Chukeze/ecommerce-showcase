@@ -70,3 +70,17 @@ TypeError: Cannot read properties of undefined (reading 'use')
     at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
     at async loadESM (node:internal/process/esm_loader:28:7)
     at async handleMainPromise (node:internal/modules/run_main:120:12)
+2024-12-22 09:41:41 [[31merror[39m]: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/index.js:32:35
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:120:12)
+2024-12-22 09:41:58 [[31merror[39m]: uncaughtException: ap is not defined
+ReferenceError: ap is not defined
+    at file:///C:/Users/enile/Desktop/CostcoShowCase/api-gateway/src/index.js:31:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:120:12)

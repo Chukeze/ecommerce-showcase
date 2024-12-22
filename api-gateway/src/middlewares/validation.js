@@ -11,7 +11,7 @@ export const validateRequest = [
     .withMessage('Username must be at least 2 characters long'),
   (req, res, next) => {
     const errors = validationResult(req)
-    console.log(errors);
+    //console.log(errors);
     if (errors.isEmpty()) {
       return next()
     }

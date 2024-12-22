@@ -31,3 +31,239 @@
 2024-12-21 23:52:08 [[32minfo[39m]: Response sent: 200
 2024-12-21 23:52:13 [[32minfo[39m]: Incoming request: POST /api/users
 2024-12-21 23:52:13 [[32minfo[39m]: Response sent: 200
+2024-12-22 08:44:10 [[32minfo[39m]: Incoming request: GET /api/users
+2024-12-22 08:44:10 [[32minfo[39m]: Response sent: 200
+2024-12-22 08:44:10 [[31merror[39m]: Validation Error: 
+2024-12-22 08:46:59 [[32minfo[39m]: Incoming request: POST /api/users?email=validTest@gmail.com&password=validtestuser&username=validuser
+2024-12-22 08:46:59 [[32minfo[39m]: Response sent: 200
+2024-12-22 08:46:59 [[31merror[39m]: Validation Error: 
+2024-12-22 08:47:54 [[32minfo[39m]: Incoming request: POST /api/users?email=validTest@gmail.com&password=validtestuser&username=validuser
+2024-12-22 08:47:54 [[32minfo[39m]: Response sent: 200
+2024-12-22 08:47:54 [[31merror[39m]: Validation Error: 
+2024-12-22 08:51:35 [[32minfo[39m]: Incoming request: POST /api/users?email=validTest@gmail.com&password=validtestuser&username=validuser
+2024-12-22 08:51:35 [[32minfo[39m]: Response sent: 200
+2024-12-22 08:52:56 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 08:53:06 [[32minfo[39m]: Incoming request: POST /api/user?email=validTest@gmail.com&password=validtestuser&username=validuser
+2024-12-22 08:53:06 [[32minfo[39m]: Response sent: 200
+2024-12-22 08:53:34 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 08:55:14 [[32minfo[39m]: Incoming request: POST /api/register?email=validTest@gmail.com&password=validtestuser&username=validuser
+2024-12-22 08:55:14 [[32minfo[39m]: Response sent: 200
+2024-12-22 08:55:23 [[32minfo[39m]: Incoming request: POST /api/user?email=validTest@gmail.com&password=validtestuser&username=validuser
+2024-12-22 08:55:23 [[32minfo[39m]: Response sent: 200
+2024-12-22 08:56:12 [[32minfo[39m]: Incoming request: POST /api/users
+2024-12-22 08:56:12 [[32minfo[39m]: Response sent: 200
+2024-12-22 09:14:22 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:20:09 [[32minfo[39m]: Incoming request: POST /api/user/register?email=validTest@gmail.com&password=validtestuser&username=validuser
+2024-12-22 09:20:09 [[32minfo[39m]: Response sent: 200
+2024-12-22 09:22:58 [[32minfo[39m]: Incoming request: POST /api/user/register
+2024-12-22 09:22:58 [[32minfo[39m]: Response sent: 200
+2024-12-22 09:23:56 [[32minfo[39m]: Incoming request: POST /api/user/register
+2024-12-22 09:23:56 [[32minfo[39m]: Response sent: 200
+2024-12-22 09:25:47 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:25:57 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:26:14 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:26:24 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:26:32 [[32minfo[39m]: Incoming request: POST /api/user/register
+2024-12-22 09:26:32 [[32minfo[39m]: Response sent: 200
+2024-12-22 09:26:42 [[32minfo[39m]: Incoming request: POST /api/user/register
+2024-12-22 09:26:42 [[32minfo[39m]: Response sent: 200
+2024-12-22 09:27:06 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:27:19 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:27:22 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:27:38 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:27:58 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:28:01 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:28:08 [[32minfo[39m]: Incoming request: POST /api/user/register
+2024-12-22 09:28:28 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:28:34 [[32minfo[39m]: Incoming request: POST /api/user/register
+2024-12-22 09:40:43 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:40:52 [[32minfo[39m]: Incoming request: POST /api/user/register
+2024-12-22 09:41:14 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:41:20 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:41:25 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:41:28 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:41:40 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:42:05 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:42:21 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:42:24 [[32minfo[39m]: Incoming request: POST /api/user/register
+2024-12-22 09:42:24 [[32minfo[39m]: Response sent: 200
+2024-12-22 09:43:57 [[32minfo[39m]: Incoming request: POST /api/user/register
+2024-12-22 09:43:57 [[32minfo[39m]: Response sent: 200
+2024-12-22 09:44:32 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:44:38 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:44:40 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:44:42 [[32minfo[39m]: Incoming request: POST /api/user/register
+2024-12-22 09:44:42 [[32minfo[39m]: Response sent: 200
+2024-12-22 09:44:45 [[32minfo[39m]: Incoming request: POST /api/user/register
+2024-12-22 09:44:45 [[32minfo[39m]: Response sent: 200
+2024-12-22 09:45:19 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:45:23 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 09:45:42 [[32minfo[39m]: Incoming request: POST /api/user/register
+2024-12-22 09:45:42 [[32minfo[39m]: Response sent: 200
+2024-12-22 10:06:12 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 10:06:12 [[32minfo[39m]: Response sent: 200
+2024-12-22 10:07:18 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:07:30 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:08:03 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:08:18 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:08:20 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:08:23 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:08:34 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 10:12:51 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 10:12:51 [[32minfo[39m]: Response sent: 200
+2024-12-22 10:12:58 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 10:12:58 [[32minfo[39m]: Response sent: 200
+2024-12-22 10:13:21 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 10:13:21 [[32minfo[39m]: Response sent: 200
+2024-12-22 10:19:23 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 10:19:28 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 10:25:42 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 10:31:10 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 10:31:52 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:31:55 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:31:59 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 10:32:40 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 10:33:40 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:33:45 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:33:48 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:33:52 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:33:56 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:34:03 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:34:03 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 10:34:25 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:34:35 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:34:44 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:34:52 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:34:55 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:34:58 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 10:37:22 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 10:44:21 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 10:44:21 [[32minfo[39m]: Response sent: 200
+2024-12-22 10:45:33 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 10:45:33 [[32minfo[39m]: Response sent: 200
+2024-12-22 10:49:46 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:51:25 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 10:51:44 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 10:52:31 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 10:54:58 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:55:02 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:55:05 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:55:08 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:56:00 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:56:06 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:56:09 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:56:13 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:56:28 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 10:56:36 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 11:02:22 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:02:33 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:02:36 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:02:41 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:02:54 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:03:03 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:03:05 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:03:15 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:03:20 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:03:32 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:03:35 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:03:43 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:03:46 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:03:52 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:03:56 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:04:11 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:04:16 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:04:42 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:05:23 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:05:28 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:05:36 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:05:39 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:06:01 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:06:06 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:06:15 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 11:06:44 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 11:06:44 [[32minfo[39m]: Response sent: 200
+2024-12-22 11:10:57 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:10:59 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:11:16 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:11:27 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 11:13:58 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:14:01 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 11:14:04 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 11:14:23 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 11:14:23 [[32minfo[39m]: Response sent: 200
+2024-12-22 11:14:30 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 11:20:10 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:20:13 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 11:20:13 [[32minfo[39m]: Response sent: 200
+2024-12-22 11:20:45 [[32minfo[39m]: Incoming request: POST /api/user/user/register
+2024-12-22 11:20:59 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:23:54 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:23:57 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:24:02 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:24:05 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 11:26:26 [[32minfo[39m]: Incoming request: POST /api/user/user/
+2024-12-22 11:28:09 [[32minfo[39m]: Incoming request: POST /api/user/user/
+2024-12-22 11:41:30 [[32minfo[39m]: Incoming request: POST /api/user/user/
+2024-12-22 13:53:13 [[32minfo[39m]: Incoming request: POST /api/user/user/register
+2024-12-22 13:53:13 [[32minfo[39m]: Response sent: 200
+2024-12-22 14:01:03 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 14:22:47 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 14:25:01 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 14:25:17 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 14:25:17 [[32minfo[39m]: Response sent: 200
+2024-12-22 14:27:07 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 14:42:08 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 14:42:38 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 14:42:38 [[32minfo[39m]: Response sent: 200
+2024-12-22 14:42:57 [[32minfo[39m]: Incoming request: POST /user
+2024-12-22 14:42:57 [[32minfo[39m]: Response sent: 200
+2024-12-22 14:43:11 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 14:43:43 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 14:43:45 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 14:43:51 [[32minfo[39m]: Incoming request: POST /user
+2024-12-22 14:43:51 [[32minfo[39m]: Response sent: 200
+2024-12-22 14:46:55 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 15:06:08 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 15:06:18 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 15:06:36 [[32minfo[39m]: Incoming request: POST /api
+2024-12-22 15:06:36 [[32minfo[39m]: Response sent: 200
+2024-12-22 15:09:40 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 15:09:40 [[32minfo[39m]: Response sent: 200
+2024-12-22 15:12:37 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 15:13:54 [[32minfo[39m]: Incoming request: POST /api/user/register
+2024-12-22 15:13:54 [[32minfo[39m]: Response sent: 200
+2024-12-22 15:14:03 [[32minfo[39m]: Incoming request: POST /api/user/user/register
+2024-12-22 15:14:03 [[32minfo[39m]: Response sent: 200
+2024-12-22 15:24:59 [[32minfo[39m]: Incoming request: POST /apiuser
+2024-12-22 15:24:59 [[32minfo[39m]: Response sent: 200
+2024-12-22 15:25:31 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 15:25:31 [[32minfo[39m]: Response sent: 200
+2024-12-22 15:25:32 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 15:25:32 [[32minfo[39m]: Response sent: 200
+2024-12-22 15:26:02 [[32minfo[39m]: Incoming request: POST /api
+2024-12-22 15:26:02 [[32minfo[39m]: Response sent: 200
+2024-12-22 15:27:17 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 15:27:17 [[32minfo[39m]: Response sent: 200
+2024-12-22 15:28:34 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 15:28:39 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 15:28:55 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 15:29:01 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 15:29:01 [[32minfo[39m]: Response sent: 200
+2024-12-22 15:29:32 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 15:29:55 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 15:30:33 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 15:30:35 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 15:30:43 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 15:30:49 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 15:30:58 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 15:33:52 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 15:33:52 [[32minfo[39m]: Response sent: 200
+2024-12-22 15:36:43 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 15:36:43 [[32minfo[39m]: Response sent: 200
+2024-12-22 15:36:46 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 15:36:46 [[32minfo[39m]: Response sent: 200
+2024-12-22 15:36:47 [[32minfo[39m]: Incoming request: POST /api/user
+2024-12-22 15:36:47 [[32minfo[39m]: Response sent: 200
+2024-12-22 15:37:01 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 15:38:16 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 16:32:37 [[32minfo[39m]: Incoming request: POST /api/user/user

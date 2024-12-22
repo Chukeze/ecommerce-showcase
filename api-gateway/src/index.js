@@ -15,18 +15,25 @@ securityLayer(app)
 
 app.use((req, res, next) => {
   logger.info(`Incoming request: ${req.method} ${req.url}`)
-  logger.info(`Response sent: ${res.statusCode}`)
   next()
 })
 
 app.use(errorHandler)
 
-app.use('/api/users', validateRequest, userRouter)
-app.use('/api/products', validateRequest, productRouter)
-app.use('/api/orders', validateRequest, orderRouter)
+app.use('/api/user', validateRequest, userRouter)
+app.use((req, res, next) => {
+  console.log(`Forwarded request to: ${req.method} ${req.url}`)
+  next()
+})
 
+app.use('/api/product', validateRequest, productRouter)
+app.use('/api/orders', validateRequest, orderRouter)
+app.use((req, res, next) => {
+  logger.info(`Response sent: ${res.statusCode}`)
+  next()
+})
 const port = process.env.PORT || 3100
 app.listen(port, () => {
-  console.log(`API Gateway listening on port ${port}`)
+  //console.log(`API Gateway listening on port ${port}`)
   logger.info(`API Gateway listening on port ${port}`)
 })

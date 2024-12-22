@@ -1,13 +1,22 @@
 import { DataTypes, Sequelize } from 'sequelize'
 
-console.log('DB url ', process.env.DATABASE)
-console.log('Current Directory:', process.cwd())
 
 const sequelize = new Sequelize('ecommerce', 'learning', 'l3arn', {
   host: 'localhost',
   dialect: 'mysql',
   logging: console.log,
 })
+
+sequelize
+  .authenticate()
+  .then(() => console.log('Database connected'))
+  .catch((err) => console.log(err))
+
+sequelize
+  .sync({ force: false }) // Set force to true if you want to recreate the tables
+  .then(() => console.log('Database synchronized'))
+  .catch((err) => console.error('Error synchronizing database:', err))
+
 
 export const Customer = sequelize.define('Customer', {
   id: {
@@ -65,7 +74,3 @@ export const Employee = sequelize.define('Employee', {
   },
 })
 
-sequelize
-  .authenticate()
-  .then(() => console.log('Database connected'))
-  .catch((err) => console.log(err))

@@ -3,10 +3,13 @@ import pkg from 'jsonwebtoken'
 import { v4 as uuidv4 } from 'uuid'
 import { Customer } from '../models/userModel.js'
 
-const { sign } = pkg;
+const { sign } = pkg
 
 export async function registerCustomer(req, res) {
   try {
+    console.log('Incoming Request Url: ', req.url)
+    console.log('Incoming Request Body:', req.body)
+
     const { username, password, email } = req.body
     const hashedPassword = await hash(password, 10)
     const user = await Customer.create({

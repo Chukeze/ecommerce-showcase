@@ -7,8 +7,10 @@ import dotenv from 'dotenv'
 
 dotenv.config({ path: '.env' })
 
-console.log('DATABASE_URL:', process.env.DATABASE) // Should not be undefined
-console.log('PORT:', process.env.PORT) // Should print 3001
+//console.log('DATABASE_URL:', process.env.DATABASE) // Should not be undefined
+//console.log('PORT:', process.env.PORT) // Should print 3001
+console.log('DB url ', process.env.DATABASE)
+console.log('Current Directory:', process.cwd())
 const app = express()
 //const cloudmap = new AWS.ServiceDiscovery({ region: 'us-east-1' })
 

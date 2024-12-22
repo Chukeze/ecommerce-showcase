@@ -16,7 +16,7 @@ export const securityLayer = (app) => {
     optionsSuccessStatus: 200,
   }
 
-  console.log('Allowed origins: ', corsOptions.origin)
+  //console.log('Allowed origins: ', corsOptions.origin)
 
   app.use(cors(corsOptions))
   app.options('*', cors()) // Automatically handle OPTIONS requests
