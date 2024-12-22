@@ -5,3 +5,29 @@
 2024-12-21 20:01:39 [[32minfo[39m]: API Gateway listening on port 3100
 2024-12-21 20:02:17 [[32minfo[39m]: API Gateway listening on port 3100
 2024-12-21 20:02:22 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-21 23:15:10 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-21 23:16:05 [[32minfo[39m]: Incoming request: GET /
+2024-12-21 23:16:05 [[32minfo[39m]: Response sent: 200
+2024-12-21 23:34:43 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-21 23:35:25 [[32minfo[39m]: Incoming request: POST /api/users
+2024-12-21 23:35:25 [[32minfo[39m]: Response sent: 200
+2024-12-21 23:35:25 [[31merror[39m]: Validation Error: 
+2024-12-21 23:38:44 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-21 23:38:48 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-21 23:39:36 [[32minfo[39m]: Incoming request: POST /api/users
+2024-12-21 23:39:36 [[32minfo[39m]: Response sent: 200
+2024-12-21 23:39:36 [[31merror[39m]: Validation Error: 
+2024-12-21 23:41:29 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-21 23:41:32 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-21 23:41:34 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-21 23:41:36 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-21 23:41:37 [[32minfo[39m]: Incoming request: POST /api/users
+2024-12-21 23:41:37 [[32minfo[39m]: Response sent: 200
+2024-12-21 23:41:37 [[31merror[39m]: Validation Error: 
+2024-12-21 23:48:57 [[32minfo[39m]: Incoming request: POST /api/users
+2024-12-21 23:48:57 [[32minfo[39m]: Response sent: 200
+2024-12-21 23:48:57 [[31merror[39m]: Validation Error: 
+2024-12-21 23:52:08 [[32minfo[39m]: Incoming request: POST /api/users
+2024-12-21 23:52:08 [[32minfo[39m]: Response sent: 200
+2024-12-21 23:52:13 [[32minfo[39m]: Incoming request: POST /api/users
+2024-12-21 23:52:13 [[32minfo[39m]: Response sent: 200

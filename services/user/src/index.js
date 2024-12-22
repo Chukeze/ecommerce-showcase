@@ -3,9 +3,12 @@ import router from './routes/userRoute.js'
 import port from './server.js'
 import dotenv from 'dotenv'
 //import AWS from 'aws-sdk'
+//console.log('Current Directory:', process.cwd())
 
-dotenv.config()
+dotenv.config({ path: '.env' })
 
+console.log('DATABASE_URL:', process.env.DATABASE) // Should not be undefined
+console.log('PORT:', process.env.PORT) // Should print 3001
 const app = express()
 //const cloudmap = new AWS.ServiceDiscovery({ region: 'us-east-1' })
 
