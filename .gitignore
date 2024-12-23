@@ -40,6 +40,6 @@ yarn-error.log*
 next-env.d.ts
 
 # misc
-code-editor-rule.md
-/code-editor-rule.md
-.code-editor-rule.md
+code-editor-rules.md
+/code-editor-rules.md
+.code-editor-rules.md

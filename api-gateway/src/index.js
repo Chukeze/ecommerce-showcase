@@ -5,7 +5,11 @@ import userRouter from './routes/user.js'
 import productRouter from './routes/product.js'
 import orderRouter from './routes/order.js'
 import logger from './utils/logger.js'
-import { validateRequest } from './middlewares/validation.js'
+import {
+  validateProductRequest,
+  validatePurchaseRequest,
+  validateSignUpOrSignInRequest,
+} from './middlewares/validation.js'
 import { errorHandler } from './middlewares/errorHandler.js'
 
 dotenv.config()
@@ -20,14 +24,14 @@ app.use((req, res, next) => {
 
 app.use(errorHandler)
 
-app.use('/api/user', validateRequest, userRouter)
+app.use('/api/user', validateSignUpOrSignInRequest, userRouter)
 app.use((req, res, next) => {
   console.log(`Forwarded request to: ${req.method} ${req.url}`)
   next()
 })
 
-app.use('/api/product', validateRequest, productRouter)
-app.use('/api/orders', validateRequest, orderRouter)
+app.use('/api/product', validateProductRequest, productRouter)
+app.use('/api/orders', validatePurchaseRequest, orderRouter)
 app.use((req, res, next) => {
   logger.info(`Response sent: ${res.statusCode}`)
   next()

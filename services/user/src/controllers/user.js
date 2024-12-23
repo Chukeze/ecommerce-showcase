@@ -5,6 +5,8 @@ import { Customer } from '../models/userModel.js'
 
 const { sign } = pkg
 
+export const userEvents = new EventEmitter()
+
 export async function registerCustomer(req, res) {
   try {
     console.log('Incoming Request Url: ', req.url)

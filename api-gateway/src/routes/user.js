@@ -46,7 +46,7 @@ const registerUserCommand = CommandFactory.getOrCreate('RegisterUser')
 userRouter.get('/user', authenticateToken, async (req, res) => {
   try {
     const response = await getUserAccountCommand.execute(
-      `${process.env.USER_SERVICE_URL}`,
+      `${process.env.USER_SERVICE_URL}/:id`,
       {
         Authorization: req.headers['authorization'],
       }

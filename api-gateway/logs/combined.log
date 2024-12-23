@@ -267,3 +267,9 @@
 2024-12-22 15:37:01 [[32minfo[39m]: Incoming request: POST /api/user/user
 2024-12-22 15:38:16 [[32minfo[39m]: Incoming request: POST /api/user/user
 2024-12-22 16:32:37 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 16:42:10 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 16:59:34 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 17:11:59 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 17:12:02 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-22 17:54:24 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-22 17:58:39 [[32minfo[39m]: Incoming request: POST /api/user/user
