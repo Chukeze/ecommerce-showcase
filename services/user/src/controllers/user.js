@@ -31,9 +31,11 @@ export async function registerCustomer(req, res) {
       throw new Error('Membership type does not exist')
     }
 
-    const token = sign({ email }, process.env.JWT_SECRET, { expiresIn: '1h' })
+    const generatedToken = sign({ email }, process.env.JWT_SECRET, {
+      expiresIn: '1h',
+    })
     await UserTokens.create({
-      token,
+      token: generatedToken,
       customerId: user.id,
       duration: 3600,
       stillValid: true,
@@ -46,7 +48,7 @@ export async function registerCustomer(req, res) {
       ],
     })
 
-    console.log('customer with token:', customerWithToken)
+    //console.log('customer with token:', customerWithToken)
 
     const createdUser = {
       id: customerWithToken.id,
@@ -61,24 +63,28 @@ export async function registerCustomer(req, res) {
         ? customerWithToken.UserTokens.token
         : 'failed to find token',
     }
-
-    if (userWebSocket && userWebSocket.clients) {
-      console.log('i made it here in user service')
-      userWebSocket.clients.forEach((client) => {
-        if (client.readyState === WebSocket.OPEN) {
-          client.send(JSON.stringify({ type: 'UserCreated', createdUser }))
-        }
-      })
-    } else {
-      userEvents.emit('UserCreated', { id: user.id })
+    if (userWebSocket.clients.size > 0) {
+      if (userWebSocket && userWebSocket.clients) {
+        userWebSocket.clients.forEach((client) => {
+          //console.log('client.readyState:', client.readyState);
+          if (client.readyState === 1) {
+            client.send(JSON.stringify({ type: 'UserCreated', createdUser }))
+            console.log('i made it here in user service')
+          } else {
+            console.log('i skip user created event not open in user service')
+          }
+        })
+      } else {
+        userEvents.emit('UserCreated', { id: user.id })
+        console.log('i skip user created event in user service')
+      }
     }
-    console.log('i skip user created event in user service')
 
     res
       .status(201)
       .json({ message: 'Customer registered successfully', createdUser })
   } catch (error) {
-    console.error('Error registering customer:', error)
+    //console.error('Error registering customer:', error)
     res.status(500).json({ message: `Registration failed: ${error.message}` })
   }
 }

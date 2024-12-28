@@ -204,7 +204,8 @@ sequelize
     'Employee' AS userType,
     Employees.badgeNumber,
     Employees.username,
-    Employees.email
+    Employees.email,
+    NULL AS token
   FROM Employees;
 `
   )
