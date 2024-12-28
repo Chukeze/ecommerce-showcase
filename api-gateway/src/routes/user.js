@@ -3,6 +3,7 @@ import { authenticateToken } from '../middlewares/authentication.js'
 import axios from 'axios'
 import hystrix from 'hystrixjs'
 import { header } from 'express-validator'
+import logger from '../utils/logger.js'
 
 const userRouter = Router()
 const CommandFactory = hystrix.commandFactory
@@ -66,6 +67,7 @@ userRouter.post(
       .withMessage('Content-Type header must be set to application/json'),
   ],
   async (req, res) => {
+    logger.info(`User route invoked with body: ${JSON.stringify(req.body)}`);
     try {
       const response = await registerUserCommand.execute(
         `${process.env.USER_SERVICE_URL}/register`,
