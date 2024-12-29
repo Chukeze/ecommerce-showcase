@@ -59,8 +59,8 @@ export async function registerCustomer(req, res) {
       membership: customerWithToken.membership
         ? customerWithToken.membership.name
         : 'failed to find membership',
-      token: customerWithToken.UserTokens
-        ? customerWithToken.UserTokens.token
+      token: customerWithToken.token
+        ? customerWithToken.token.token
         : 'failed to find token',
     }
     if (userWebSocket.clients.size > 0) {
@@ -69,7 +69,7 @@ export async function registerCustomer(req, res) {
           //console.log('client.readyState:', client.readyState);
           if (client.readyState === 1) {
             client.send(JSON.stringify({ type: 'UserCreated', createdUser }))
-            console.log('i made it here in user service')
+            console.log('i made it here in user service', createdUser)
           } else {
             console.log('i skip user created event not open in user service')
           }

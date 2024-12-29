@@ -406,3 +406,41 @@
 2024-12-28 14:51:14 [[32minfo[39m]: Incoming request: POST /api/user/user
 2024-12-28 14:51:14 [[32minfo[39m]: User route invoked with body: {"email":"nmoon@yahoo.com","password":"badlandboys","username":"natheniel"}
 2024-12-28 14:52:28 [[32minfo[39m]: API Gateway listening on port 3100
+2024-12-28 15:15:30 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 15:15:30 [[32minfo[39m]: User route invoked with body: {"email":"meg@gmail.com","password":"nunjikmolpyhtu","username":"meg"}
+2024-12-28 15:17:53 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 15:17:53 [[32minfo[39m]: User route invoked with body: {"email":"megi@gmail.com","password":"nunjikmolpyhtu","username":"megi"}
+2024-12-28 15:20:20 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 15:20:20 [[32minfo[39m]: User route invoked with body: {"email":"validuserPM2@gmail.com","password":"validtestuserPOSTMAN2","username":"validuserPostman2"}
+2024-12-28 15:42:20 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 15:42:20 [[32minfo[39m]: User route invoked with body: {"email":"megino@gmail.com","password":"nunjikmolpyhtu","username":"megano"}
+2024-12-28 15:43:38 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 15:43:38 [[32minfo[39m]: User route invoked with body: {"email":"meno@gmail.com","password":"nunjikmolpyhtu","username":"meon"}
+2024-12-28 15:59:07 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 15:59:07 [[32minfo[39m]: User route invoked with body: {"email":"menoa@gmail.com","password":"nunjikmolpyhtu","username":"meona"}
+2024-12-28 15:59:50 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 15:59:50 [[31merror[39m]: Validation Error: 
+2024-12-28 15:59:55 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 15:59:55 [[32minfo[39m]: User route invoked with body: {"email":"menoato@gmail.com","password":"ballerscxnjnjua","username":"meonato"}
+2024-12-28 16:10:08 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 16:10:08 [[32minfo[39m]: User route invoked with body: {"email":"menoatos@gmail.com","password":"ballerscxnjnjua","username":"meonatos"}
+2024-12-28 16:10:35 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 16:10:35 [[32minfo[39m]: User route invoked with body: {"email":"monoatos@gmail.com","password":"ballerscxnjnjua","username":"monatos"}
+2024-12-28 16:13:50 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 16:13:50 [[32minfo[39m]: User route invoked with body: {"email":"monoatos@gmail.com","password":"ballerscxnjnjua","username":"monatos"}
+2024-12-28 16:18:19 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 16:18:19 [[32minfo[39m]: User route invoked with body: {"email":"monoatols@gmail.com","password":"ballerscxnjnjua","username":"monatosl"}
+2024-12-28 16:19:31 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 16:19:31 [[32minfo[39m]: User route invoked with body: {"email":"monoatols@gmail.com","password":"ballerscxnjnjua","username":"monatosl"}
+2024-12-28 16:19:37 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 16:19:37 [[32minfo[39m]: User route invoked with body: {"email":"monoatohls@gmail.com","password":"ballerscxnjnjua","username":"monatoslh"}
+2024-12-28 18:53:56 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 18:53:56 [[32minfo[39m]: User route invoked with body: {"email":"monoatohlos@gmail.com","password":"ballerscxnjnjua","username":"monatoslho"}
+2024-12-28 19:07:03 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 19:07:03 [[32minfo[39m]: User route invoked with body: {"email":"marainey@aol.com","password":"hujamzidcndhaoz","username":"culter"}
+2024-12-28 19:10:20 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 19:10:20 [[32minfo[39m]: User route invoked with body: {"email":"chadboseman@yahoo.com","password":"testingitesting123","username":"Chad"}
+2024-12-28 19:11:47 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 19:11:47 [[32minfo[39m]: User route invoked with body: {"email":"marainey@gmail.com","password":"inusmznujsakl","username":"marainey"}
+2024-12-28 19:54:16 [[32minfo[39m]: Incoming request: POST /api/user/user
+2024-12-28 19:54:16 [[32minfo[39m]: User route invoked with body: {"email":"johik123@gmail.com","password":"asaxasxxajabscbibsa","username":"johik123"}
