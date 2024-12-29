@@ -43,3 +43,5 @@ next-env.d.ts
 code-editor-rules.md
 /code-editor-rules.md
 .code-editor-rules.md
+
+*./api-gateway/logs
